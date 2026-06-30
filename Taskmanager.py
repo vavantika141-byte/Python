@@ -7,7 +7,7 @@ while True:
     print("4. Delete task")
     print("5. Exit from the Task")
 
-    choice = input("Enter your Choice: ").strip()
+    choice = input("Enter your Choice: ").strip() # to remove whitespaces
 
     if choice=="1":
         task=input("Enter the task: ")
